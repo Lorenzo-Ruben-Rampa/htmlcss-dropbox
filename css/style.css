@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+@font-face {
+    font-family: 'Sans-Serif';
+    src: url(../Font/Open_Sans/static/OpenSans-Medium.ttf);
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 900;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.box-header-laterali {
+    width: 60%;
+ }
+
+ .box-header-sx {
+    text-align: left;
+    margin-left: 10px;
+ }
+
+.box-header-dx {
+    text-align: right;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin: 20px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin-right: 20px;
+    border: none;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgb(136, 197, 247);
+    height: 1400px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-size:100px;
+}
+
+/* sezioni centrali */
+
+.prima {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 100px;
+    border-top: 1px solid gray;
+    padding-top: 50px;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    border: gray;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    border: 7px solid blue;
+}
