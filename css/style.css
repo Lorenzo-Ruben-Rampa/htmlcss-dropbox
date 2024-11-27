@@ -186,7 +186,6 @@ p {
 /* tabella prima sezione */
 
 .sottocontainer-prima {
-    height: 1000px;
     display: flex;
     justify-content: space;
 }
@@ -204,7 +203,7 @@ p {
 }
 
 .destra {
-    padding-bottom: 143px;
+    padding-bottom: 144px;
 }
 
 .dx {
@@ -291,3 +290,38 @@ nav.colonne {
 .kp {
     margin-bottom: 30px;
 }
+
+/* seconda sezione */
+
+.seconda {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.container-seconda {
+    width: 66%;
+    border: 1px solid gray;
+}
+
+.contenuto-seconda {
+    display: flex;
+}
+
+.etichetta-colonna-seconda {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+/* terza sezione */
+
+.terza {
+    width: 100%;
+}
+
+.container-terza {
+    width: 67%;
+} 
