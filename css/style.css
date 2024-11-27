@@ -44,8 +44,11 @@ header {
     margin-right: 10px;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+.link-header {
     cursor: pointer;
     color: black;
     margin: 20px;
@@ -55,12 +58,21 @@ a:hover {
     text-decoration: underline;
 }
 
-.blue {
+.blue-header {
     background-color: blue;
     color: white;
     padding: 8px;
     margin-right: 20px;
     border: none;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 
 }
 
 .button-link {
@@ -176,15 +188,23 @@ p {
 .sottocontainer-prima {
     height: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space;
 }
 
 .colonna {
-    width: 25%;
+    width: 40%;
 }
 
 .sx {
     margin-right: 70px;
+}
+
+.sinistra {
+    padding-bottom: 225px;
+}
+
+.destra {
+    padding-bottom: 143px;
 }
 
 .dx {
@@ -255,4 +275,19 @@ nav.colonne {
 
 .inline {
     margin-left: 5px;
+}
+
+.buy-now {
+    color: blue;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.checkbox-column:checked {
+    border: none;
+    color: rgb(0, 102, 255);
+}
+
+.kp {
+    margin-bottom: 30px;
 }
