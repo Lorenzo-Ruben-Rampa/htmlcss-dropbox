@@ -15,7 +15,9 @@
     <header>
         <div class="box-header-sx laterali">
             <div class="logo">
-             <img src="./img/logo-small.png" alt="logo dropbox">
+             <a href="link">
+                <img src="./img/logo-small.png" alt="logo dropbox">
+             </a>
              <a href="link">Perché Dropbox</a>
              <a href="link">Funzioni</a>
              <a href="link">Piani e Prezzi</a>
@@ -25,34 +27,57 @@
             <a href="link">Supporto</a>
             <a href="link">Contatta l'ufficio vendite</a>
             <a href="link">Accedi</a>
-            <button class="inizia">Inizia</button>
+            <button class="blue">
+                <a href="link" class="button-link">Inizia</a>
+            </button>
     </header>
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-        <div class="jumbo-colonna-sx">
-            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-            <button class="blue">Inizia</button>
-            <p>Annulla in qualsiasi momento</p>
-            <span>&#129139;</span>
-        </div>
-        <div class="jumbo-colonna-dx">
-            <img src="./img/jumbo.png" alt="esempio servizi offerti">
-        </div>        
+        <div class="container-jumbo">
+            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+            <div class="sottocontainer-prima">
+                <div class="jumbo-colonna-sx">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    <button class="blue prova-gratuita">
+                        <a href="link" class="blue">Inizia la tua prova gratuita</a>
+                    </button>
+                    <p class="annulla">Annulla in qualsiasi momento</p>
+                    <span>&#129139;</span>
+                </div>
+                <div class="jumbo-colonna-dx">
+                <img src="./img/jumbo.png" alt="esempio servizi offerti" class="immagini">
+                </div>
+            </div>
+        </div>                
     </div>
-    
+
     <!-- sezioni centrali -->
      <main>
         <section class="prima">
-            <h1>Trova il piano business che fa per te</h1>
-            <input type="checkbox" class="checkbox-round" />
+            <div class="container-prima">
+                <h2>Trova il piano business che fa per te</h2>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="checkbox-round">
+                    <label for="f-m">Fatturazione mensile</label>
+                    <input type="checkbox" class="checkbox-round">
+                    <label for="f-a">Fatturazione annuale</label>
+                </div>            
+                <div class="sottocontainer-prima">
+                    <div class="colonna">
+                        <div class="etichetta-colonna"></div>
+                        <div class="contenuto-colonna"></div>
+                    </div>
+                    <div class="colonna"></div>
+                    <div class="colonna"></div>
+                </div>
+            </div>
         </section>   
         <section></section>    
         <section></section>    
         <section></section>
      </main>
-     
+    
      <!-- footer -->
     <footer></footer> 
 </body>

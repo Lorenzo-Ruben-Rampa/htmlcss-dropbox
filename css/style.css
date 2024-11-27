@@ -18,11 +18,12 @@ body {
 header {
     position: fixed;
     z-index: 900;
-    height: 70px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    background-color: white;
 }
 
 .logo {
@@ -50,6 +51,10 @@ a{
     margin: 20px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .blue {
     background-color: blue;
     color: white;
@@ -58,39 +63,95 @@ a{
     border: none;
 }
 
+.button-link {
+    color: white;
+}
+
 /* Jumbotron */
 
 .jumbotron {
     background-color: rgb(136, 197, 247);
-    height: 1400px;
-    margin-top: 70px;
+    height: 800px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+h1 {
+    display: block;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.container-jumbo {
+    width: 67%;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.sottocontainer-prima {
+    display: flex;
+}
+
+.jumbo-colonna-sx {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.jumbo-colonna-dx {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.immagini {
+    width: 100%;
+    height: 100%;
+}
+
+.prova-gratuita {
+    margin-bottom: 25px;
 }
 
 span {
-    font-size:100px;
+    font-size:50px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.annulla {
+    margin-bottom: 50px;
 }
 
 /* sezioni centrali */
 
-.prima {
-    display: flex;
-    justify-content: center;
+/* prima sezione */
+
+.container-prima {
     text-align: left;
-    margin-top: 100px;
-    border-top: 1px solid gray;
+    width: 66%;
     padding-top: 50px;
 }
 
+.prima {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+}
+
 .checkbox-round {
-    width: 1.3em;
-    height: 1.3em;
-    border: gray;
+    width: 1.6em;
+    height: 1.6em;
+    border: 2px solid lightgray;
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
-    border: 1px solid #ddd;
     appearance: none;
     -webkit-appearance: none;
     outline: none;
@@ -98,5 +159,24 @@ span {
 }
 
 .checkbox-round:checked {
-    border: 7px solid blue;
+    border: 5px solid rgb(0, 102, 255);
+}
+
+label {
+    margin-right: 50px;
+}
+
+.checkbox-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* tabella prima sezione */
+
+.etichetta-colonna {
+    border: 1px solid gray;
+}
+
+.contenuto-colonna {
+    border: 1px solid gray;
 }
