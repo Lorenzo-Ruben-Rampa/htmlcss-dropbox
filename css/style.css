@@ -94,7 +94,7 @@ h2 {
     text-align: left;
 }
 
-.sottocontainer-prima {
+.sottocontainer-jumbo {
     display: flex;
 }
 
@@ -162,7 +162,7 @@ p {
     border: 5px solid rgb(0, 102, 255);
 }
 
-label {
+.label-checkbox { 
     margin-right: 50px;
 }
 
@@ -173,10 +173,86 @@ label {
 
 /* tabella prima sezione */
 
+.sottocontainer-prima {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.colonna {
+    width: 25%;
+}
+
+.sx {
+    margin-right: 70px;
+}
+
+.dx {
+    margin-left: 70px;
+}
+
 .etichetta-colonna {
     border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenuto-colonna {
     border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.gray-text {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav.etichetta {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-content-icon {
+    padding-left: 0;
+}
+
+label {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.column-content-text {
+    font-size: 15px;
+    display: inline;
+    margin-left: 0;
+}
+
+nav.colonne {
+    margin-bottom: 20px;
+}
+
+.mini-container-colonne {
+    display: flex;
+    flex-direction: row;
+}
+
+.inline {
+    margin-left: 5px;
 }
