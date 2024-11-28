@@ -302,6 +302,10 @@ nav.colonne {
     margin-bottom: 30px;
 }
 
+.checkmark {
+    color: rgb(0, 102, 255);
+}
+
 /* seconda sezione */
 
 .seconda {
