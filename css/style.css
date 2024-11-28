@@ -46,6 +46,7 @@ header {
 
 a {
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .link-header {
@@ -55,11 +56,11 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid rgba(3, 3, 122, 0.774);
 }
 
 .blue-header {
-    background-color: blue;
+    background-color: rgba(7, 7, 138, 0.719);
     color: white;
     padding: 8px;
     margin-right: 20px;
