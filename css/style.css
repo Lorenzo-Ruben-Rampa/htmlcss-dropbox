@@ -26,11 +26,14 @@ header {
     background-color: white;
 }
 
+.container-header {
+    margin: 20px;
+}
+
 .logo {
     height: 40px;
     align-self: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     display: flex;
     align-items: center;
 }
