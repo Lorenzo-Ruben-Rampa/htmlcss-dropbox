@@ -147,18 +147,18 @@ p {
 
 /* prima sezione */
 
+.prima {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+}
+
 .container-prima {
     text-align: left;
     width: 66%;
     padding-top: 50px;
     display:flex;
     flex-wrap: wrap;
-}
-
-.prima {
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid gray;
 }
 
 .checkbox-round {
@@ -345,7 +345,7 @@ nav.colonne {
 
 /* terza sezione */
 
-.terza {
+.borderless {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -394,22 +394,131 @@ nav.colonne {
 
 /* quarta sezione */
 
-.quarta {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .container-quarta {
     width: 67%;
     margin-bottom: 170px;
 } 
 
+.riga-quarta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .contenuto-quarta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.colonna-quarta {
+    width:30%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.colonna-quarta {
-    width:33%;
+.img-quarta {
+    object-fit:cover
+    width: 200px;
+    height: 300px;
+}
+
+.container-img-quarta {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dx-quarta {
+    margin-left: 10px;
+}
+
+.sx-quarta {
+    margin-right: 10px;
+}
+
+.testo-quarta {
+    margin-top: 20px;
+}
+
+.h3-quarta {
+    margin-bottom: 40px;
+}
+
+/* quinta sezione */
+
+.container-quinta {
+    width: 67%;
+    margin-bottom: 170px;
+} 
+
+.contenuto-quinta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.testo-quinta {
+    margin-top: 70px;
+}
+/* footer */
+
+footer {
+    width: 100%;
+    background-color:rgb(31, 30, 30);
+    display:flex;
+    justify-content: center;;
+}
+
+.container-pièdipagina {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    background-color: rgb(31, 30, 30);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height:130px;
+    border-top: 1px solid white;
+}
+
+.mini-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-pièdipagina {
+    margin: 25%, 50%, 0, 50%;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.finale {
+    color: white;
+    margin: 7px;
+    font-size: 20px;
+}
+
+.titolo-colonna {
+    color: rgb(90, 133, 211);
+    font-size: 22px;
+}
+
+.titolo-colonna-lingue {
+    color: rgb(90, 133, 211);
+    font-size: 40px;
+    margin-top: 7px;
 }
