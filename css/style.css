@@ -160,6 +160,11 @@ p {
     margin-bottom: 50px;
 }
 
+.link-arrow {
+    text-decoration: none;
+    color: black;
+}
+
 /* sezioni centrali */
 
 /* prima sezione */
@@ -411,6 +416,7 @@ nav.colonne {
 .link-terza {
     color: black;
     font-size: 17px;
+    text-decoration: none;
 }
 
 /* quarta sezione */
